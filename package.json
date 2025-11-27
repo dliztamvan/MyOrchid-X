@@ -1,0 +1,19 @@
+{
+  "name": "myorchid-x",
+  "version": "1.0.0",
+  "description": "MyOrchid-X",
+  "main": "index.js",
+  "author": "MyOrchidX",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node index.js",
+    "gen-hashes": "node tools/generate-hashes.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:dliztamvan/MyOrchidX",
+    "express": "^4.18.2",
+    "ws": "^8.13.0",
+    "qrcode": "^1.5.1",
+    "archiver": "^5.3.1"
+  }
+}
